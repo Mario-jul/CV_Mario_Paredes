@@ -4,7 +4,7 @@
 }
 .image {
     width: 100%; height: 70vh;
-    background-image: url("../assets/css/desktop_resized.jpg");
+    background-image: url("../img/desktop_resized.png");
     background-size: cover;
     position: relative;
     
