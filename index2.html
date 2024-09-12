@@ -4,35 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        body{
+            background-color: rgb(166, 163, 163);
+        }
+        .header{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+
+        }
         table,td,tr {
-            border: 1px solid red;
             border-collapse: collapse;
+            display:flex;
+            justify-content:center;
+            align-items: center;
         }
         .foto {
             height: 300px;
             width: 250px;
         }
+        tr,td{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+            margin: 20px;
+
+        }
+        .button{
+            display:flex;
+            justify-content:center;
+            align-items: center;
+
+        }
+
     </style>
     <title>Portafolio Mario Paredes</title>
 </head>
+
 <body>
-    <h3>Hola Mundo!!!</h3>
-    <table>
+    <div class="header">
+        <h1>Portafolio Mario Paredes</h1>;
+    </div>
+    
+    <table class="table">
         <tr>
-            <td>Curriculum</td>
+            <td><h3>Mi primer Curriculum</h3></td>
             <td ><img class="foto" src="./assets/img/primer_projecto.png" alt="Screnshot Primer projecto"></td>
         </tr>
         <tr>
-            <td>Proyecto 2</td>
-            <td></td>
+            <td><h3>Iguana Landing Page</h3></td>
+            <td><img class="foto" src="./assets/img/Iguana_page.png" alt="Iguana_page"></td>
         </tr>
             
         <tr>
-            <td>Proyecto 3</td>
-            <td></td>
+            <td><h3>Cuppon Page</h3></td>
+            <td><img class="foto" src="./assets/img/cuppon_page.png" alt="cuppon_page"></td>
         </tr>
             
     </table>
-   <button><a href="index.html">Atras</a></button> 
+    <section class="button">
+        <button><a href="index.html">Atras</a></button> 
+    </section>
 </body>
 </html>
