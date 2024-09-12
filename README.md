@@ -1,5 +1,6 @@
 # CV_Mario_Paredes
 
+Link al despliege del CV https://mario-jul.github.io/CV_Mario_Paredes/
 
 1.- Fork companero 1 https://github.com/Mario-jul/landing-billetera
 
